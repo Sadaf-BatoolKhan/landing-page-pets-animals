@@ -1,0 +1,1550 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li i{
+    font-size: 2rem;
+}
+nav ul li h1{
+    font-size: 2rem;
+}
+.image-pink{
+    height: 50vh;
+    width:35%;
+    border-radius: 106px 40px 113px 66px;
+    -webkit-border-radius: 106px 40px 113px 66px;
+    -moz-border-radius: 106px 40px 113px 66px;
+    background-color : rgb(243, 161, 175);
+     position: absolute;
+    left:30%;
+    z-index: 1;
+    top: 40%;
+}
+.image-pink h1{
+    margin-top: 10%;
+    position: absolute;
+    left: 15%;
+    color: white;
+}
+.image-pink p{
+    color: white;
+    position: absolute;
+    left: 15%;
+    top:40%;
+
+}
+.image-pink button{
+    position: absolute;
+    top:72%;
+    left: 15%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.image img{
+    height: 55vh;
+    width: 23%;
+    border-radius: 50%;
+    margin-top: 50px;
+    position: relative;
+    left:55%;
+    z-index: 2;
+
+}
+.image{
+    background-color: rgb(240, 235, 235);
+    height: 100vh;
+}
+
+/* second-section */
+.second-sec{
+    position: relative;
+    height: 120vh;
+    background-color: white;
+    
+}
+.box{
+    height: 30vh;
+    width: 60%;
+    background-color: rgb(243, 161, 175);
+    margin-top: 15%;
+
+}
+.box-image img{
+    border-radius: 50%;
+    height: 50vh;
+    width: 25%;
+    position: absolute;
+    left: 180px;
+    top:-55px;
+}
+.left-box{
+    background-color:rgb(243, 117, 138);
+    color: white;
+    width: 25%;
+    height: 55vh;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    top:100px;
+    z-index: 2;
+}
+button{
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(158, 64, 158);
+}
+.bottom-pets img{
+    height: 40vh;
+    width: 100%;
+}
+.bottom-pets{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.content{
+    position: absolute;
+    left: 12%;
+    top:50%;
+}
+.content h1{
+    color: rgb(243, 117, 138);;
+}
+/* 3rd section */
+.container{
+    position: relative;
+    height: 120vh;
+    background-color: rgb(241, 232, 232);
+}
+.box-content{
+    width: 25%;
+    background-color: white;
+    color:rgb(243, 117, 138); 
+    padding: 30px;
+    position: absolute;
+    top:50px;
+    left: 80px;
+}
+.dog-image img{
+    height: 60vh;
+    width: 60%;
+    position: absolute;
+    left: 25%;
+    top:200px;
+}
+.long-bar{
+    height: 55vh;
+    width: 5%;
+    background-color:rgb(243, 117, 138);
+    position: absolute;
+    left: 85%;
+    top:280px;
+}
+.horizantal-bar{
+    height: 20vh;
+    width: 60%;
+    background-color:rgb(243, 117, 138);
+    position: absolute;
+    left: 30%;
+    top:560px;
+}
+.three-box{
+    display: flex;
+    position: absolute;
+    top:480px;
+    gap: 30px;
+    left: 80px;
+}
+.one-box{
+    height: 20vh;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: white;
+}
+.one-box i.center{
+    display: block;
+    text-align: center;
+}
+.one-box i{
+    font-size: 2rem;
+    color: rgb(243, 117, 138);
+}
+.one-box h3{
+    margin-top: 30px;
+}
+/* four section */
+.container-two{
+    height: 100vh;
+    position: relative;
+}
+
+.left-red-boxes{
+    height: 50vh;
+    width: 40%;
+    background-color: rgb(243, 117, 138);;
+    color: white;
+    position: absolute;
+    top:100px;
+    left: 50px;
+    padding: 30px 20px;
+}
+.left-red-boxes i{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.prices h1{
+    color : rgb(243, 117, 138); 
+}
+.right-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:30px;
+    width: 40%;
+    position: relative;
+    left: 700px;
+    top:100px;
+}
+
+/* five section */
+.container-three{
+    height: 100vh;
+    position: relative;
+}
+.right-pic-content{
+    width: 40%;
+    height: 80vh;
+    position: absolute;
+    left: 300px;
+}
+.right-pic-content h1{
+    color:rgb(243, 117, 138); 
+}
+.right-pic-content hr{
+    width: 60%;
+}
+.right-pic-content h1, hr, h4, p{
+    margin-top: 20px;
+}
+.two-rows-with-pic{
+    display: flex;
+}
+.right-dog-pic{
+    position: absolute;
+    left: 60%;
+}
+
+/* six section */
+.container-four{
+    height: 90vh;
+    position: relative;
+}
+.right-column{
+    width: 30%;
+    background-color:rgb(243, 117, 138); 
+    height: 80vh;
+    padding: 10px 30px;
+    position: absolute;
+    left: 60%;
+    top:12%;
+}
+.right-column h1{
+
+    color:rgb(241, 73, 101);
+}
+.right-column p{
+    color: white;
+}
+.two-columns{
+    display: flex;
+    gap: 40px;
+}
+.left-columns{
+     height:90vh;
+     margin-top: 100px;
+}
+.pink-ball{
+    height: 25vh;
+    width: 10%;
+    border-radius: 50%;
+    background-color:rgb(243, 117, 138);
+    position: absolute;
+    left: 45%;
+    top:70px;
+}
+
+/* seven-section */
+.container-five{
+    height: 135vh;
+    margin-top: 20px;
+    position: relative;
+    background-color: rgb(228, 216, 216);
+
+}
+.grid-whole-sec{
+    position: absolute;
+    left: 15%;
+    top:50px;
+}
+.grid-section{
+    display: flex;
+    width: 70%;
+    gap:30px;
+}
+.grid-section i{
+    font-size: 2rem;
+    height: 6vh;
+    padding: 10px;
+    color: white;
+    background-color: rgb(243, 117, 138);
+    border-radius: 50%;
+}
+.whole-grid{
+    display: flex;
+    gap:30px;
+    width: 70%;
+    
+}
+.whole-grid i{
+    font-size: 2rem;
+    height: 6vh;
+    padding: 10px;
+    color: white;
+    background-color: rgb(243, 117, 138);
+    border-radius: 50%;
+}
+.under-gridbox{
+    width: 50%;
+    height: 40vh;
+    color: white;
+    padding: 30px;
+    background-color: rgb(243, 117, 138);;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+/* Eight-section */
+.container-six{
+    position: relative;
+    height: 60vh;
+    width: 100%;
+}
+
+.form-group input{
+      width: 70%;
+      border: none;
+      border-bottom: 2px solid black;
+      padding: 8px 0;
+      margin-bottom: 20px;
+}
+.form-group textarea{
+      width: 70%;
+      border: none;
+      border-bottom: 2px solid black;
+      padding: 20px 0;
+}
+.contact-info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 20px;
+    background-color: rgb(247, 242, 242);
+    position: absolute;
+    left: 20%;
+    top:35%;
+
+}
+.contact-info > div {
+    flex: 1;
+}
+.icons i{
+    margin: 10px 10px;
+}
+.contact-us a{
+    margin-top: 10px;
+    color: rgb(243, 117, 138);
+}
+.submit{
+    width: 70%;
+    background-color: brown;
+    padding: 10px;
+}
+.pink-amoeba{
+    height: 70vh;
+    width: 70%;
+    border-radius: 17% 83% 50% 50% / 49% 36% 64% 51% ;
+    background-color: rgb(243, 117, 138);
+    position: absolute;
+    left: 17%;
+    top:20%
+    
+}
+/* Media query */
+/* MEDIA QUERY FOR LAPTOP */
+
+@media (max-width:1024px) { 
+    .image-pink{
+        height: 60vh;
+        width:45%;
+        left:25%;
+        top: 40%;
+    }
+    .image-pink p{
+        top:45%;
+    }
+    .image-pink button{
+        top:78%;
+        left: 15%;
+    }
+    .second-sec{
+        height: 140vh;
+    }
+    .left-box{
+        width: 35%;
+        height: 65vh;
+    }
+    .bottom-pets img{
+        height: 45vh;
+        width: 100%;
+    }
+    .bottom-pets{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .content{
+        left: 8%;
+    }
+    .container{
+        position: relative;
+        height: 160vh;
+    }
+    .box-content{
+        width: 30%;
+    }
+    .dog-image img{
+        height: 65vh;
+        width: 55%;
+    }
+    .long-bar{
+        height: 65vh;
+    }
+    .horizantal-bar{
+        height: 20vh;
+        width: 60%;
+        top:545px;
+    }
+    .one-box h3{
+        margin-top: 25px;
+    }
+    /* new section */
+    .container-two{
+        height: 120vh;
+        position: relative;
+    }
+    
+    .left-red-boxes{
+        height: 85vh;
+    }
+    .left-red-boxes i{
+        font-size: 3rem;
+    }
+    .right-box{
+        left: 560px;
+    }
+    /* New section */
+
+
+    .container-three{
+        height: 130vh;
+        position: relative;
+    }
+    .right-pic-content{
+        top:50px;
+        left: 160px;
+    }
+    .right-pic-content h1{
+        color:rgb(243, 117, 138); 
+    }
+    .right-pic-content hr{
+        width: 80%;
+    }
+    .two-rows-with-pic{
+        display: flex;
+    }
+    .right-dog-pic{
+        position: absolute;
+        left: 60%;
+    }
+    .right-dog-pic img{
+       margin-top: 10%;
+       height: 120vh;
+       width: 90%;
+    }
+    /* new-section */
+    .container-four{
+        height: 110vh;
+        position: relative;
+    }
+    .right-column{
+        width: 30%;
+        height: 90vh;
+        padding: 10px 30px;
+        left: 55%;
+        top:30px;
+    }
+    .left-columns{
+         height:90vh;
+    }
+    .left-columns img{
+       width: 80%;
+    }
+    .pink-ball{
+        height: 23vh;
+        width: 10%;
+        left: 35%;
+        top:30px;
+    }
+    .container-five{
+        height: 165vh;
+        margin-top: 20px;
+    }
+    .grid-whole-sec{
+        position: absolute;
+        left: 10%;
+        top:50px;
+    }
+    .grid-section{
+        width: 90%;
+    }
+    .whole-grid{
+        width: 90%;
+        
+    }
+    .under-gridbox{
+        width: 50%;
+        height: 45vh;
+        top:64%;
+    }
+    .container-six{
+        position: relative;
+        height: 60vh;
+        width: 100%;
+    }
+    
+    .form-group input{
+          width: 80%;
+        
+    }
+    .form-group textarea{
+          width: 80%;
+    }
+    .contact-info{
+        top:25%;
+    
+    }
+    .contact-us a{
+        margin-top: 20px;
+        color: rgb(243, 117, 138);
+    }
+    .submit{
+        width: 80%;
+    }
+    
+  
+}
+/* media Query for tablets */
+@media (max-width:768px) {
+    .image-pink{
+        height: 60vh;
+        width:55%;
+        left:20%;
+        top: 50%;
+    }
+    .image-pink h1{
+        margin-top: 10%;
+        left: 10%;
+    }
+    .image-pink p{
+        left: 10%;
+        top:45%;
+    
+    }
+    .image-pink button{
+        top:75%;
+        left: 10%;
+    }
+    
+    .image img{
+        height: 50vh;
+    
+    }
+    .second-sec{
+        position: relative;
+        height: 150vh;
+        background-color: white;
+        
+    }
+    .box{
+        height: 25vh;
+    }
+    .box-image img{
+        left: 140px;
+        top:-55px;
+    }
+    .left-box{
+        background-color:rgb(243, 117, 138);
+        width: 35%;
+        height: 80vh;
+        left: 50%;
+        top:60px;
+    }
+    button{
+        width: 40%;
+    }
+    .bottom-pets img{
+        height: 50vh;
+        width: 60%;
+    }
+    .bottom-pets{
+        position: absolute;
+        left: 0;
+        top:68%;
+        z-index: 1;
+    }
+    .content{
+        position: absolute;
+        left: 5%;
+        top:30%;
+    }
+    /* new-section */
+    .container{
+        position: relative;
+        height: 150vh;
+        background-color: rgb(241, 232, 232);
+    }
+    .box-content{
+        width: 35%;
+        left: 30px;
+    }
+    .dog-image img{
+        left: 30%;
+        top:200px;
+    }
+    .long-bar{
+        height: 70vh;
+        width: 8%;
+        top:300px;
+    }
+    .horizantal-bar{
+        height: 20vh;
+        width: 60%;
+        left: 30%;
+        top:520px;
+    }
+    .three-box{
+        gap: 30px;
+        left: 50px;
+    }
+    .one-box{
+        height: 25vh;
+    }
+    .one-box h3{
+        margin-top: 25px;
+    }
+    .container-two{
+        height: 150vh;
+        position: relative;
+    }
+    
+    .left-red-boxes{
+        height: 100vh;
+        width: 40%;
+        padding: 30px 20px;
+    }
+    .left-red-boxes i{
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    .right-box{
+        left: 430px;
+        top:100px;
+    }
+    /* ....... */
+    .container-three{
+        height: 150vh;
+        position: relative;
+    }
+    .right-pic-content{
+        width: 40%;
+        height: 80vh;
+        left: 100px;
+    }
+    .right-pic-content hr{
+        width: 70%;
+    }
+    .right-dog-pic{
+        position: absolute;
+        left: 60%;
+        top:50px;
+    }
+    /* ...... */
+    .container-four{
+        height: 120vh;
+        position: relative;
+    }
+    .right-column{
+        height: 95vh;
+        left: 60%;
+    }
+    .left-columns{
+         height:90vh;
+         margin-top: 112px;
+    }
+    .pink-ball{
+        position: absolute;
+        left: 45%;
+        top:50px;
+    }
+    /* ..... */
+    .container-five{
+        height: 185vh;
+        margin-top: 20px;
+        position: relative;
+        background-color: rgb(228, 216, 216);
+    
+    }
+    .grid-whole-sec{
+        position: absolute;
+        left: 5%;
+        top:50px;
+    }
+    .grid-section{
+        display: flex;
+        width: 90%;
+        gap:10px;
+    }
+    .whole-grid{
+        width: 90%;
+        gap:10px;
+        
+    }
+    .under-gridbox{
+        width: 60%;
+        height: 60vh;
+        box-sizing: border-box;
+        padding: 10px;
+        top: 67.5%;
+        left: 10%;
+    }
+    /* ..... */
+    .container-six{
+        position: relative;
+        height: 60vh;
+        width: 100%;
+    }
+
+ 
+    .contact-info{
+      top:35%;
+    
+    }
+    .pink-amoeba{
+        height: 85vh;
+        width: 80%;
+        left: 14%;
+        top:20%
+    }   
+}
+/* media Query for tablets */
+@media (max-width:425px) {
+    nav ul{
+        padding: 10px 20px;
+    }
+    .image-pink{
+        height: 70vh;
+        width:85%;
+        left:5%;
+        top: 40%;
+    }
+    .image-pink h1{
+        margin-top: 10%;
+        left: 10%;
+    }
+    .image-pink p{
+        left: 10%;
+        top:40%;
+    
+    }
+    .image-pink button{
+        position: absolute;
+        top:75%;
+    }
+    
+    .image img{
+        height: 45vh;
+        width: 35%;
+        margin-top: 20px;
+    }
+    
+    /* second-section */
+    .second-sec{
+        position: relative;
+        height: 280vh;
+        background-color: white;
+        
+    }
+    .box{
+        height: 30vh;
+        width: 85%;
+    
+    }
+    .box-image img{
+        border-radius: 50%;
+        height: 50vh;
+        width: 45%;
+        left: 100px;
+    }
+    .left-box{
+        width: 80%;
+        height: 80vh;
+        left: 5%;
+        top:400px;
+    }
+    button{
+        width: 60%;
+    }
+    .bottom-pets img{
+        height: 60vh;
+        width: 100%;
+    }
+    .bottom-pets{
+        margin-top: 10%;
+        position: absolute;
+        right: 0;
+        left: 5%;
+        bottom: 0;
+        z-index: 1;
+    }
+    .content{
+        position: absolute;
+        left: 10%;
+        top:14%;
+    }
+    /* 3rd section */
+    .container{
+        position: relative;
+        height: 260vh;
+        background-color: rgb(241, 232, 232);
+    }
+    .box-content{
+        width: 80%;
+        top:50px;
+        left: 10px;
+    }
+    .dog-image img{
+        height: 60vh;
+        width: 80%;
+        left: 5%;
+        top:320px;
+    }
+    .long-bar{
+        height: 35vh;
+        width: 5%;
+        background-color:rgb(243, 117, 138);
+        position: absolute;
+        left: 85%;
+        top:430px;
+    }
+    .horizantal-bar{
+        height: 15vh;
+        width: 80%;
+        background-color:rgb(243, 117, 138);
+        position: absolute;
+        left: 10%;
+        top:560px;
+    }
+    .three-box{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top:680px;
+        gap: 30px;
+        left: 30px;
+    }
+    .one-box{
+        height: 20vh;
+        width: 80%;
+        padding: 10px 20px;
+        background-color: white;
+    }
+    .one-box h3{
+        margin-top: 30px;
+        text-align: center;
+    }
+    /* four section */
+    .container-two{
+        height: 200vh;
+        position: relative;
+    }
+    
+    .left-red-boxes{
+        height: 95vh;
+        width: 80%;
+        top:30px;
+        left: 30px;
+    }
+    .prices h1{
+        color : rgb(243, 117, 138); 
+    }
+    .right-box{
+        display: flex;
+        flex-wrap: wrap;
+        gap:30px;
+        width: 80%;
+        position: relative;
+        left: 30px;
+        top:500px;
+    }
+    
+    /* five section */
+    .container-three{
+        height: 200vh;
+        position: relative;
+    }
+    .right-pic-content{
+        width: 80%;
+        height: 80vh;
+        position: absolute;
+        left: 30px;
+        top:240px;
+    }
+    .two-rows-with-pic{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .right-dog-pic{
+        position: absolute;
+        left: 10%;
+        top:830px;
+    }
+    .right-dog-pic img{
+        height: 60vh;
+        width: 100%;
+    }
+    
+    /* six section */
+    .container-four{
+        height: 270vh;
+        position: relative;
+    }
+    .right-column{
+        width: 70%;
+        height: 100vh;
+        left: 30px;
+        top:300px;
+    }
+    .two-columns{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .left-columns{
+         height:70vh;
+         margin-top: 0px;
+         position: absolute;
+         bottom: 0;
+    }
+    .pink-ball{
+        height: 20vh;
+        width: 20%;
+        left: 70%;
+        top:30px;
+    }
+    
+    /* seven-section */
+    .container-five{
+        height: 370vh;
+        margin-top: 10px;
+        position: relative;
+    
+    }
+    .grid-whole-sec{
+        position: absolute;
+        left: 30px;
+        width: 90%;
+        top:50px;
+    }
+    .grid-section{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        gap:10px;
+    }
+    .grid-section i{
+        font-size: 2rem;
+        height: 6vh;
+        padding: 10px;
+        color: white;
+        background-color: rgb(243, 117, 138);
+        border-radius: 50%;
+    }
+    .whole-grid{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        gap:10px;
+        
+    }
+    .whole-grid i{
+        font-size: 2rem;
+        height: 6vh;
+        padding: 10px;
+        color: white;
+        background-color: rgb(243, 117, 138);
+        border-radius: 50%;
+    }
+    .under-gridbox{
+        width: 80%;
+        height: 100vh;
+        color: white;
+        padding: 30px;
+        background-color: rgb(243, 117, 138);;
+        position: absolute;
+        margin-top: 80px;
+        top: 63%;
+        left: 30px;
+    }
+    /* Eight-section */
+    .container-six{
+        position: relative;
+        height: 60vh;
+        width: 100%;
+    }
+    
+    .form-group input{
+          width: 80%;
+          border: none;
+          border-bottom: 2px solid black;
+          padding: 8px 0;
+          margin-bottom: 20px;
+    }
+    .form-group textarea{
+          width: 80%;
+          border: none;
+          border-bottom: 2px solid black;
+          padding: 20px 0;
+    }
+    .contact-info{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 80%;
+        position: absolute;
+        left: 30px;
+        top:35%;
+    
+    }
+    .contact-info > div {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+       
+    .form-group input{
+        width: 100%;
+      
+  }
+  .form-group textarea{
+        width: 100%;
+  }
+    .submit{
+        width: 100%;
+    }
+    .pink-amoeba{
+        display: none;
+}}
+@media (max-width:375px) {
+    /* second-section */
+    .second-sec{
+        position: relative;
+        height: 280vh;
+        background-color: white;
+        
+    }
+    .box{
+        height: 30vh;
+        width: 85%;
+    
+    }
+    .left-box{
+        left: 10px;
+        top:400px;}
+
+    .bottom-pets img{
+        height: 60vh;
+        width: 98%;
+    }
+    /* 3rd section */
+    .container{
+        position: relative;
+        height: 260vh;
+        background-color: rgb(241, 232, 232);
+    }
+    .box-content{
+        width: 80%;
+        top:50px;
+        left: 5px;
+    }
+    .dog-image img{
+        left: 5%;
+        top:360px;
+    }
+    .long-bar{
+        height: 35vh;
+        left: 85%;
+        top:450px;
+    }
+    .horizantal-bar{
+        height: 15vh;
+        width: 80%;
+        left: 10%;
+        top:600px;
+    }
+    .three-box{
+        display: flex;
+        flex-wrap: wrap;
+        top:700px;
+        gap: 30px;
+        left: 30px;
+    }
+    .one-box h3{
+        margin-top: 30px;
+        text-align: center;
+    }
+    /* four section */
+    .container-two{
+        height: 200vh;
+        position: relative;
+    }
+    
+    .left-red-boxes{
+        height: 98vh;
+        width: 80%;
+        top:30px;
+        left: 20px;
+    }
+    .right-box{
+
+        gap:30px;
+        width: 90%;
+        left: 30px;
+        top:540px;
+    }
+    
+    /* five section */
+    .container-three{
+        height: 200vh;
+        position: relative;
+    }
+    .right-pic-content{
+        width: 80%;
+        height: 80vh;
+        position: absolute;
+        left: 30px;
+        top:240px;
+    }
+    .two-rows-with-pic{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .right-dog-pic{
+        position: absolute;
+        left: 10%;
+        top:850px;
+    }
+    .right-dog-pic img{
+        height: 60vh;
+        width: 100%;
+    }
+    
+    /* six section */
+    .container-four{
+        height: 270vh;
+        position: relative;
+    }
+    .right-column{
+        width: 70%;
+        height: 100vh;
+        left: 30px;
+        top:300px;
+    }
+    .two-columns{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .left-columns{
+         height:90vh;
+         margin-top: 0px;
+         position: absolute;
+         bottom: 0;
+    }
+    .pink-ball{
+        height: 20vh;
+        width: 20%;
+        left: 70%;
+        top:30px;
+    }
+    
+    /* seven-section */
+    .container-five{
+        height: 370vh;
+        margin-top: 0px;
+        position: relative;
+    
+    }
+    .grid-whole-sec{
+        position: absolute;
+        left: 30px;
+        width: 90%;
+        top:50px;
+    }
+    .grid-section{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        gap:10px;
+    }
+    .grid-section i{
+        font-size: 2rem;
+        height: 6vh;
+        padding: 10px;
+        color: white;
+        background-color: rgb(243, 117, 138);
+        border-radius: 50%;
+    }
+    .whole-grid{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        gap:10px;
+        
+    }
+    .whole-grid i{
+        font-size: 2rem;
+        height: 6vh;
+        padding: 10px;
+        color: white;
+        background-color: rgb(243, 117, 138);
+        border-radius: 50%;
+    }
+    .under-gridbox{
+        width: 80%;
+        height: 100vh;
+        color: white;
+        padding: 30px;
+        background-color: rgb(243, 117, 138);;
+        position: absolute;
+        margin-top: 80px;
+        bottom: 0;
+        left: 30px;
+    }
+    /* Eight-section */
+    .container-six{
+        position: relative;
+        height: 60vh;
+        width: 100%;
+    }
+    
+    .form-group input{
+          width: 100%;
+          border: none;
+          border-bottom: 2px solid black;
+          padding: 8px 0;
+          margin-bottom: 20px;
+    }
+    .form-group textarea{
+          width: 100%;
+          border: none;
+          border-bottom: 2px solid black;
+          padding: 20px 0;
+    }
+    .contact-info{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 80%;
+        position: absolute;
+        left: 15px;
+        top:35%;
+    
+    }
+    .contact-info > div {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .submit{
+        width: 100%;
+    }
+    .pink-amoeba{
+        display: none;
+}} 
+@media (max-width:320px) {
+    nav ul{
+        padding: 10px 20px;
+    }
+    .image-pink{
+        height: 70vh;
+        width:85%;
+        left:5%;
+        top: 38%;
+    }
+    .image-pink h1{
+        margin-top: 20%;
+        left: 10%;
+        font-size: 30px;
+    }
+    .image-pink button{
+        position: absolute;
+        top:85%;
+        width: 40%;
+        left: 40px;
+    }
+    
+    .image img{
+        height: 40vh;
+        width: 35%;
+        margin-top: 20px;
+    }
+    
+    /* second-section */
+    .second-sec{
+        position: relative;
+        height: 280vh;
+        background-color: white;
+        
+    }
+    .box{
+        height: 30vh;
+        width: 85%;
+    
+    }
+    .box-image img{
+        border-radius: 50%;
+        height: 50vh;
+        width: 45%;
+        left: 100px;
+    }
+    .left-box{
+        width: 80%;
+        height: 80vh;
+        left: 10px;
+        top:400px;
+    }
+    .bottom-pets img{
+        height: 60vh;
+        width: 100%;
+    }
+    .bottom-pets{
+        margin-top: 10%;
+        position: absolute;
+        right: 0;
+        left: 10px;
+        bottom: 0;
+        z-index: 1;
+    }
+    /* 3rd section */
+    .container{
+        position: relative;
+        height: 260vh;
+        background-color: rgb(241, 232, 232);
+    }
+    .box-content{
+        width: 80%;
+        top:50px;
+        left: 5px;
+    }
+    .dog-image img{
+        left: 5%;
+        top:400px;
+    }
+    .long-bar{
+        height: 35vh;
+        width: 5%;
+        background-color:rgb(243, 117, 138);
+        position: absolute;
+        left: 85%;
+        top:490px;
+    }
+    .horizantal-bar{
+        height: 15vh;
+        width: 80%;
+        background-color:rgb(243, 117, 138);
+        position: absolute;
+        left: 10%;
+        top:640px;
+    }
+    .three-box{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top:730px;
+        gap: 30px;
+        left: 25px;
+    }
+    /* four section */
+    .container-two{
+        height: 200vh;
+        position: relative;
+    }
+    
+    .left-red-boxes{
+        height: 95vh;
+        width: 80%;
+        top:30px;
+        left: 10px;
+    }
+    .right-box{
+        display: flex;
+        flex-wrap: wrap;
+        gap:30px;
+        width: 80%;
+        position: relative;
+        left: 30px;
+        top:500px;
+    }
+    
+    /* five section */
+    .container-three{
+        height: 200vh;
+        position: relative;
+    }
+    .right-pic-content{
+        width: 80%;
+        height: 80vh;
+        position: absolute;
+        left: 30px;
+        top:280px;
+    }
+    .two-rows-with-pic{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .right-dog-pic{
+        position: absolute;
+        left: 10%;
+        top:930px;
+    }
+    .right-dog-pic img{
+        height: 50vh;
+        width: 100%;
+    }
+    
+    /* six section */
+    .container-four{
+        height: 270vh;
+        position: relative;
+    }
+    .right-column{
+        width: 70%;
+        height: 100vh;
+        left: 20px;
+        top:300px;
+    }
+    .two-columns{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .left-columns{
+         height:50vh;
+         margin-top: 0px;
+         position: absolute;
+         bottom: 0;
+    }
+    .pink-ball{
+        height: 20vh;
+        width: 20%;
+        left: 70%;
+        top:-50px;
+    }
+    
+    /* seven-section */
+    .container-five{
+        height: 390vh;
+        margin-top: 10px;
+        position: relative;
+    
+    }
+    .grid-whole-sec{
+        position: absolute;
+        left: 30px;
+        width: 90%;
+        top:50px;
+    }
+    .grid-section{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        gap:10px;
+    }
+    .grid-section i{
+        font-size: 2rem;
+        height: 6vh;
+        padding: 10px;
+        color: white;
+        background-color: rgb(243, 117, 138);
+        border-radius: 50%;
+    }
+    .whole-grid{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        gap:10px;
+        
+    }
+    .whole-grid i{
+        font-size: 2rem;
+        height: 6vh;
+        padding: 10px;
+        color: white;
+        background-color: rgb(243, 117, 138);
+        border-radius: 50%;
+    }
+    .under-gridbox{
+        width: 80%;
+        height: 100vh;
+        box-sizing: border-box;
+        color: white;
+        padding: 10px;
+        background-color: rgb(243, 117, 138);;
+        position: absolute;
+        margin-top: 150px;
+        top:65%;
+        left: 30px;
+    }
+    /* Eight-section */
+    .contact-info{
+        display: flex;
+        width: 80%;
+        left: 20px;
+        top:35%;
+    
+    }
+}
